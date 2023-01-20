@@ -43,7 +43,7 @@
             
 									<section class="dash_content_app" style="flex-basis:100%">
 										<header class="dash_content_app_header">
-											<h2 style="font-size: 1.2em"><i class="fab fa-slideshare mr-2"></i>INTRODUÇÃO INFORMATICA - AULA 01</h2>
+											<h2 style="font-size: 1.2em"><i class="fab fa-slideshare mr-2"></i>INTRODUÇÃO A INFORMATICA - AULA 01</h2>
 				
 											<a title="Voltar para sala" class="btn btn-blue no_mobile" style="font-weight: 300; font-size: .8em" href="../informatica.html"><i class="fas fa-undo mr-2"></i> Ver todos os cursos</a>
 											<a title="Voltar para sala" class="btn btn-red no_mobile" style="font-weight: 300; font-size: .8em" href="#" onclick="close_window();return false;"><i class="fas fa-undo mr-2"></i> SAIR</a>
@@ -67,7 +67,9 @@
 												
 												<li class="list__group-item ">
 													<a href="#" onclick="javascript:abrirJanela('_aulas/160/1/01/index.html', 1360, 768);">
-													<i class="fas fa-play mr-2"></i>ASSISTIR</a>
+													<i class="fas fa-play mr-2"></i>ASSISTIR 1</a>
+													<a href="#" onclick="javascript:abrirJanela('_aulas/160/1/02/index.html', 1360, 768);">
+													<i class="fas fa-play mr-2"></i>ASSISTIR 2</a>
 												</li>
 												
 												<li class="list__group-item ">
@@ -102,13 +104,10 @@
 
 												<div class="list__study-lesson">
 												   <!-- PDF-->
-												   <object data="_apostilas/160/1.pdf" type="application/pdf" width="100%" style="
-												   border: 5px solid #ffbf00;
-												   height: 445px;
-												   --darkreader-inline-border-top:#303436; --darkreader-inline-border-right:#303436; 
-												   --darkreader-inline-border-bottom:#303436; --darkreader-inline-border-left:#303436;
-												   " data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
-											  </object>
+													<object data="_apostilas/160/1.pdf" type="application/pdf" width="100%"  style="border: 5px solid #f00; height: 445px;
+														 --darkreader-inline-border-top:#303436; --darkreader-inline-border-right:#303436; 
+														 --darkreader-inline-border-bottom:#303436; --darkreader-inline-border-left:#303436;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+													 </object>
 														
 												</div>
 											</div>
@@ -128,6 +127,7 @@
 			}
 		</script>
 		<script type="text/javascript">
+			<!--
 			function abrirJanela(pagina, largura, altura) {
 			 // Definindo centro da tela
 			 var esquerda = (screen.width - largura)/2;
@@ -136,6 +136,7 @@
 			 // Abre a nova janela
 			 minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
 			}
+			-->
 		</script>
 		
 					<script src="../../assets/js/jquery.min.js"></script>
