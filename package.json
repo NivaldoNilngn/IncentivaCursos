@@ -1,0 +1,21 @@
+{
+3 "nome" : "IncentivaCursos" ,     
+4 "versão" : "1.0.0" ,     
+5 "descrição" : "" ,     
+6 "scripts" : {     
+7 "build" : "echo \"Nenhuma compilação especificada\" && exit 1" ,         
+8 "test" : "echo \"Nenhum teste especificado\" && exit 1" ,         
+9 "start" : "node index.js"         
+10 } ,    
+11 "repositório" : {     
+12 "tipo" : "git" ,         
+13 "url" : "git+https://github.com/NivaldoNilngn/IncentivaCursos.git"         
+14 } ,    
+15 "autor" : "" ,     
+16 "licença" : "ISC" ,     
+17 "erros" : {     
+18 "url" : "https://github.com/NivaldoNilngn/IncentivaCursos/issues"         
+19 } ,    
+20 "homepage" : "https://github.com/NivaldoNilngn/IncentivaCursos#readme"     
+21 }
+22
